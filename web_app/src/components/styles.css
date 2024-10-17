@@ -1,0 +1,64 @@
+/* src/components/styles.css */
+body {
+    display: flex;
+    justify-content: center; /* Центрирование содержимого по горизонтали */
+    align-items: center; /* Центрирование содержимого по вертикали */
+    height: 100vh; /* Полная высота экрана */
+    margin: 0; /* Убираем отступы у body */
+    background-color: #ffb6c1; /* Светлый фон для страницы */
+}
+
+.container {
+    background-color: white; /* Белый фон для контейнера */
+    padding: 0px; /* Отступы внутри контейнера */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для эффекта глубины */
+    width: 400px; /* Фиксированная ширина для контейнера */
+}
+
+button {
+    padding: 10px 16px; /* Увеличенные отступы */
+    background-color: #007bff; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без границы */
+    border-radius: 4px; /* Скругленные углы */
+    cursor: pointer; /* Курсор в виде указателя */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, transform 0.2s; /* Плавный переход */
+    width: 100%; /* Ширина кнопки на 100% контейнера */
+}
+
+h2 {
+    text-align: center; /* Центрирование заголовка */
+    color: #333; /* Цвет заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+    font-family: 'Arial', sans-serif; /* Шрифт заголовка */
+}
+
+form {
+    display: flex; /* Flex-контейнер для формы */
+    flex-direction: column; /* Вертикальное направление */
+}
+
+input, textarea {
+    margin-bottom: 15px; /* Отступ между элементами */
+    padding: 8px; /* Отступ внутри полей ввода */
+    border: 1px solid #ccc; /* Цвет границы */
+    border-radius: 6px; /* Скругленные углы */
+    font-size: 16px; /* Размер шрифта */
+    transition: border-color 0.3s; /* Плавный переход для границы */
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; /* Цвет границы при фокусе */
+    outline: none; /* Убираем обводку */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+    transform: scale(1.02); /* Увеличение кнопки при наведении */
+}
+
+button:active {
+    transform: scale(0.98); /* Уменьшение кнопки при нажатии */
+}

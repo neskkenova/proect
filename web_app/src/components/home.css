@@ -1,0 +1,40 @@
+/* src/components/Home.css */
+.home {
+    text-align: center;
+    margin: 30px; /* Увеличен отступ */
+}
+
+.card-container {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: center; /* Центрируем карточки */
+    gap: 30px; /* Увеличены отступы между карточками */
+}
+
+.card {
+    background-color: #ffd5dc; /* Задайте здесь желаемый цвет фона */
+    border-radius: 12px; /* Увеличен радиус округления углов для карточек */
+    padding: 30px; /* Увеличены внутренние отступы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Увеличена тень для карточек */
+    transition: background-color 0.3s; /* Плавный переход при наведении */
+}
+
+.card:hover {
+    background-color: #e0e0e0; /* Цвет при наведении */
+}
+
+h1 {
+    color: #4B3D3D; /* Темно-коричневый цвет */
+    margin-bottom: 30px; /* Увеличен отступ снизу для заголовка */
+}
+
+/* home.css */
+
+.card h2 {
+    color: #2c3e50; /* Цвет заголовка */
+    font-size: 32px; /* Увеличен размер шрифта заголовка */
+}
+
+.card p {
+    color: #7f8c8d; /* Цвет описания */
+    font-size: 18px; /* Увеличен размер шрифта описания */
+}

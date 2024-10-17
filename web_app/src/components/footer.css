@@ -1,0 +1,14 @@
+/* src/components/Footer.css */
+footer {
+    background-color: #333; /* Темный фон */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 0; /* Привязка к нижней части окна */
+    left: 0; /* Привязка к левому краю */
+    right: 0; /* Привязка к правому краю */
+    width: 100%; /* Ширина на всю страницу */
+    font-size: 17px; /* Уменьшенный размер шрифта */
+    font-weight: bold; /* Жирный текст */
+}
